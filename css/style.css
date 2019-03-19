@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+html,body{
+    background:#fff;
+    font-size: 100%;
+    font-family: 'Roboto-Regular';
+    background-image: linear-gradient(180deg,#ff0060 0,#ff6975);
+    background-repeat: repeat-x;
+}
+
+body a{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,label,p{
+    margin:0;
+}
+.fa{
+    height: 50px;
+    width: 50px;
+}
+
